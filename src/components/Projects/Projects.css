@@ -1,0 +1,60 @@
+.projects {
+    margin: 12px;
+    transition: .5s;
+    margin-top: 22px;
+}
+.card-projects {
+    margin: 12px;
+    margin-bottom: 22px;
+}
+.projects-img {
+    width: 260px;
+    height: 160px;
+    color: #000;
+    background-color: wheat;
+   
+
+}
+
+.icon-card-like {
+    color: black;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+.icon-card-like, span {
+   margin-right: 2px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.icon-card-view {
+    color: black;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.icon-card-view, span {
+   margin-right: 1px;
+}
+.icon-card-comment {
+    font-size: 12px;
+    margin-left: 5px;    
+}
+.icon-card-comment, span {
+   margin-right: 2px;    
+}
+.card-title{
+   margin-right: 2px; 
+   font-size: 15px;
+   font-weight: 600;
+
+}
+.card-projects {
+    transition: 0.8s ease;
+
+}
+.card-projects:hover {
+    transform: scale(1.1);
+
+}
