@@ -1,0 +1,19 @@
+.send {
+    background-color: whitesmoke;
+}
+
+.contain {
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    background-color: #102447;
+    color: whitesmoke;
+    height: 500px;
+   border-radius: 5px;
+   margin-right: 50px;
+   margin-top: 50px;
+}

@@ -1,0 +1,51 @@
+.modal3 {
+    width: 0px;
+    height: 34px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .modalContainer3 {
+    width: 550px;
+    height: 420px;
+    border-radius: 12px;
+    background-color: #102447;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-left: 340px;
+  }
+  
+  .modalContainer3 .body3 {
+    width: 310px;
+    background-color: #102447;
+
+    height: 350px;
+  }
+
+
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-close {
+    text-align: center;
+    margin-left: 200px;
+    width: 60px;
+    background-color: black;
+  }
+   span .button-send {
+    text-align: center;
+    width: 93px;
+    text-align: center;
+    margin-bottom: 3px;
+   
+  }
+  

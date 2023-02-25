@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,400;1,500&family=Macondo&family=Oswald:wght@500&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada:wght@300&family=Urbanist:wght@500&display=swap');
+
+
+ header {
+    background-color: #102447;
+    width: 100vw;
+    height: 85px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 25%);
+   
+}
+ header .container-fluid{
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media(max-width:992px) {
+    .header .container-fluid{
+        padding: 0 5%;
+    }
+}
+.navb-items, .item, a {
+  text-decoration: none;
+  color: #000;
+
+}
+.navb-items  .item a:hover {
+    color: whitesmoke;
+  }
+
+
+.header  .nav-logo {
+ background-color: #102447;
+ width: 60px;
+ height: 60px;
+ margin-top: 8px;
+}
+.header .navb-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    letter-spacing: 3px;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+.header  .item {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: whitesmoke;
+    height: 38px;
+    transition: all .1s ease;
+    cursor: pointer;
+}
+
+.header  .item, .home, .about, .services, .cases {
+    text-decoration: none;
+    margin: 9px;
+    color: whitesmoke;
+}
+.header  .item:hover {
+    border-bottom: 4px solid black;
+    color: whitesmoke;
+}
+
+.header  .item-button a {
+    background-color: aliceblue;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 3px;
+    width: 130px;
+    height: 47px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all .5s ease;
+}
+
+.header .item-button a:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+.mobile-toggler, .icon-menu {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    letter-spacing: 3px;
+    color: whitesmoke;
+    margin-top: 0px;
+    margin-right: 0px;
+    border-radius: 8px;
+    
+
+}
+.mobile-toggler {
+    margin-top: 8px;
+}
+.modal-dialog {
+    margin: 0;
+    width: 300px;
+} 
+.nav-logo-modal {
+    width: 50px;
+}
+
+.modal-header {
+    background-color:#102447;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    border-bottom: 2px solid whitesmoke;
+}
+.icon-close {
+   color: white;
+    font-size: 50px;
+}
+
+.modal-body .modal-line {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7px 0;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all .5s ease;
+    border-bottom: 1px solid #102447;
+    margin-left: 12px;
+}
+.modal-body .modal-line .homee {
+    font-size: 33px;
+    
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+}
+
+
+.modal-body .modal-line .case{
+    font-size: 32px;
+    margin-right: 15px;
+    color: white;
+}
+.modal-body .navb-button .message{
+    font-size: 35px;
+    margin-right: 20px;
+    color: black;
+}
+.modal-body .modal-line .aboutt{
+    font-size: 31px;
+    margin-right: 15px;
+    color: white;
+}
+.modal-line a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+.modal-line a:hover{
+    color: whitesmoke;
+    
+}
+.item-button .navb-button {
+    color: black;
+    text-decoration: none;
+    background-color: whitesmoke;
+    width: 130%;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    transition: all .5s ease;
+}
+.navb-button:hover {
+    color: white;
+    background-color: #102447;
+}
+.mobile-modal-footer {
+    width: 70%;
+    padding: 20% 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+    color: whitesmoke;
+}
+.mobile-modal-footer a {
+    color: whitesmoke;
+}
+.mobile-modal-footer a:hover {
+    color: black;
+   
+}
+@media(max-width: 450px) {
+    .modal-dialog{
+        width: 82;
+    }
+}
+@media(max-width: 450px) {
+    .header{
+        width: 82;
+    }
+}
+@media(max-width:767){
+    .div {
+        font-size: 50px;
+        text-align: start;
+        width: 70%;
+        margin: auto;
+    }
+}
+.modal .modal-dialog .modal-content {
+    border-radius: 5;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color:#102447
+}
+
+@media (max-width: 767px) { 
+    .item, .item-button{
+        display:none;
+    }
+}
+
+

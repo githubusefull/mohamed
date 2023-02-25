@@ -1,0 +1,11 @@
+
+.form-sign {
+    width: 500px;
+    text-align: center;
+    margin-left: 42px;
+    
+   
+}
+.form-sign .name, .phone, .password, .email {
+    height: 54px;
+}

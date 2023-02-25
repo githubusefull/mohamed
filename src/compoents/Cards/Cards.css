@@ -1,0 +1,49 @@
+.icon-card-like {
+    color: black;
+    font-size: 12px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    font-weight: 500;
+
+}
+.icon-card-like, span {
+   margin-right: 2px;
+   font-size: 15px;
+   font-weight: 500;
+}
+.icon-card-view {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.icon-card-view, span {
+   margin-right: 1px;
+}
+.icon-card-comment {
+    font-size: 15px;
+    margin-left: 7px;    
+}
+.icon-card-comment, span {
+   margin-right: 4px;    
+}
+.card {
+    margin: 8px;
+    transition: 0.8s ease;
+    height: 300px;
+
+}
+.card:hover {
+    transform: scale(1.1);
+
+}
+h4 {
+    color: #000;
+}
+.see-more {
+    font-size: 35px;
+}
+.see-more:hover {
+    color: #000;
+}
+

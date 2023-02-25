@@ -1,0 +1,85 @@
+.icon-about, .face, .git, .link, .pin {
+    transition: .5s;
+}
+
+
+
+
+ .face:hover  {
+    color: #3b5998;
+    text-shadow: 0 0 5px #ffee10;
+}
+.git:hover  {
+    color: #000;
+}
+.pin:hover  {
+    color:  rgb(20, 20, 109) ;
+}
+.link:hover  {
+    color:  #0e76a8 ;
+}
+
+  
+.img-about {
+    border-radius: 5px;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    float: left;
+}
+.card-about {
+    text-align: center;
+    margin-top: 52px;
+    margin-right: 22px;
+}
+
+.button-about {
+    text-align: center;
+}
+.icon-about i{
+ color: black;
+ background-color: white;
+ font-size: 30px;
+ margin: 12px;
+
+}
+
+.icon-about, a {
+   text-align: center;
+}
+
+
+
+.card-body  {
+    font-size: 17px;
+    font-weight: 400;
+}
+ h3 span {
+    font-size: 18px;
+}
+
+
+.Aboutt {
+    width: 18rem;
+}
+
+.card-signup {
+    transition: 1s ease-out;
+    margin-bottom: 200px;
+    border-style:solid;
+    border-radius: 10px;
+}
+
+.card-signup:hover
+ {
+    transform: scale(1.1);
+
+}
+.already-sign {
+    margin: 8px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+.card-body, .card-title {
+    color: #000;
+}
