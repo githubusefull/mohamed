@@ -6,7 +6,7 @@ import Cards from './compoents/Cards/Cards';
 import About from './compoents/About/About';
 //import Contact from './compoents/Contact/Contact';
 import React from 'react';
-
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   

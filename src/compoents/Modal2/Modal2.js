@@ -2,17 +2,36 @@ import { Button } from 'react-bootstrap';
 import './Modal2.css';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser'; 
+import { toast   } from 'react-toastify';
+import { ToastContainer  } from 'react-toastify';
+
+
+
 
 
 function Modal2({closeModal}) {
+ 
   const form = useRef();
 
   const sendEmail = (e) => {
+  
+
     e.preventDefault();
 
     emailjs.sendForm('service_wdpn1wi', 'template_huaea1l', form.current, 'eA5OUa4wFBKzUNJxi')
       .then((result) => {
           console.log(result.text);
+          toast("Thank you! Your message has been sent.", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme:"dark",
+            color:"black",
+          });
          
       }, (error) => {
           console.log(error.text);
@@ -22,6 +41,8 @@ function Modal2({closeModal}) {
    
     <div className="modalBackground">
     <div className="modalContainer">
+    <ToastContainer />
+
     <div className="body">
 
      
