@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/mohamed/static/css/main.d6645f95.css",
-    "main.js": "/mohamed/static/js/main.668c3126.js",
+    "main.css": "/mohamed/static/css/main.cd9d2a8e.css",
+    "main.js": "/mohamed/static/js/main.1d3b474c.js",
     "static/js/787.9e30dce5.chunk.js": "/mohamed/static/js/787.9e30dce5.chunk.js",
     "static/media/CV.png": "/mohamed/static/media/CV.e0716c964326cd5780e0.png",
-    "static/media/record.mp4": "/mohamed/static/media/record.d35bed16b07cad7a274f.mp4",
-    "static/media/react-picc.png": "/mohamed/static/media/react-picc.ad366aec6cde81d9209e.png",
-    "static/media/Potfolio.JPG": "/mohamed/static/media/Potfolio.9916cf799854215964e3.JPG",
-    "static/media/inputdata.JPG": "/mohamed/static/media/inputdata.739c6b5e23c458b94605.JPG",
-    "static/media/reactboot.png": "/mohamed/static/media/reactboot.13a3fae1bd5ccbf1e898.png",
+    "static/media/reactboostrap.png": "/mohamed/static/media/reactboostrap.d7a792fb89936a6446d3.png",
     "static/media/dataV.JPG": "/mohamed/static/media/dataV.b6b5d36bc4b1702a7a41.JPG",
-    "static/media/django.png": "/mohamed/static/media/django.6b8364e8f06b2785c9b2.png",
-    "static/media/ReactCal.JPG": "/mohamed/static/media/ReactCal.270b16b56dee2141bea9.JPG",
-    "static/media/reactexpress.png": "/mohamed/static/media/reactexpress.d8f74cb064ebff78db37.png",
+    "static/media/laravel.png": "/mohamed/static/media/laravel.adf2e2850a346aa6895c.png",
+    "static/media/bootstrap-png.png": "/mohamed/static/media/bootstrap-png.ff4ba441ec3324145fde.png",
+    "static/media/redux.png": "/mohamed/static/media/redux.b3b939c66aecf7d53967.png",
+    "static/media/React.png": "/mohamed/static/media/React.2a0cac33f155e4a27216.png",
+    "static/media/inputdata.png": "/mohamed/static/media/inputdata.3b3a6bbd15da4c4122b2.png",
     "index.html": "/mohamed/index.html",
-    "main.d6645f95.css.map": "/mohamed/static/css/main.d6645f95.css.map",
-    "main.668c3126.js.map": "/mohamed/static/js/main.668c3126.js.map",
+    "main.cd9d2a8e.css.map": "/mohamed/static/css/main.cd9d2a8e.css.map",
+    "main.1d3b474c.js.map": "/mohamed/static/js/main.1d3b474c.js.map",
     "787.9e30dce5.chunk.js.map": "/mohamed/static/js/787.9e30dce5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6645f95.css",
-    "static/js/main.668c3126.js"
+    "static/css/main.cd9d2a8e.css",
+    "static/js/main.1d3b474c.js"
   ]
 }
