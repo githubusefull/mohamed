@@ -4,6 +4,7 @@ import './Footer.css';
 import logo from './portfolio-white.png';
 
     function Footer() {
+
   return (
     <MDBFooter  className='footer text-center text-lg-start text-muted my-4'>   
    <section>
@@ -44,9 +45,12 @@ import logo from './portfolio-white.png';
                 </a>
               </p>
               <p>
-                <a href='/contact' className='text-reset'>
-                  Contact
-                </a>
+
+
+
+
+
+
               </p>
             </MDBCol>
            

@@ -2,7 +2,7 @@
     width: 100px;
     height: 34px;
     background-color: #102447;
-
+    z-index: 1;
     position: fixed;
     display: flex;
     justify-content: center;

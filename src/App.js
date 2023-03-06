@@ -7,15 +7,26 @@ import About from './compoents/About/About';
 //import Contact from './compoents/Contact/Contact';
 import React from 'react';
 import 'react-toastify/dist/ReactToastify.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 
 function App() {
   
   return (
     <div className='App'>
       <NavBar/>
-      <About />
-      <Cards />
-      <Footer />
+      <BrowserRouter>
+      <Container>
+  <Routes>
+      <Route path='/' element={<About />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/projects' element={<Cards />} />
+     
+
+      </Routes>
+      </Container>
+        </BrowserRouter>
+ <Footer />
       </div>
     
   );

@@ -14,7 +14,6 @@ function NavBar() {
    
    <header className='header' >
 
-
     <div className="container-fluid">
         <div className="navb-log"   id="navbarModel">
             <img src={logo} className="nav-logo"  alt="logo"/>
@@ -43,7 +42,10 @@ function NavBar() {
 
             
             </div>
+
+   
             </div>
+
         <div className="mobile-toggler d-lg-none">
         
         <a href="/dddd"   

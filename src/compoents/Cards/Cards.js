@@ -3,7 +3,7 @@ import './Cards.css';
 import react2 from '../Projects/Imgs/inputdata.png';
 import react3 from '../Projects/Imgs/React.png';
 import react4 from '../Projects/Imgs/dataV.JPG';
-import react5 from '../Projects/Imgs/bootstrap-png.png';
+import navbar from '../Projects/Imgs/navbar.png';
 import react6 from '../Projects/Imgs/calculator.png';
 import react7 from '../Projects/Imgs/djan.png';
 import react8 from '../Projects/Imgs/express.png';
@@ -34,7 +34,7 @@ function Cards() {
          <TfiComment className="icon-card-comment"/><span>34</span>
         </p>
         
-        <a className='see-more' type='button' href="https://github.com/githubusefull/"><TfiMoreAlt/></a>
+        <a className='see-more' type='button' href="https://githubusefull.github.io/mohamed/"><TfiMoreAlt/></a>
       
 
     </div>
@@ -61,11 +61,11 @@ function Cards() {
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
-      <img src={react5}  className="card-img-top" alt="..."/>
+    <div class="card h-100 ">
+      <img src={navbar}  className="card-img-top" alt="..."/>
 
-        <h5 class="card-title my-4">React.js + Bootstrap 5</h5>
-        <p>using react.js</p> 
+        <h5 class="card-title my-4">React.js + Bootstrap</h5>
+        <p>navbar with notifications and dropdown using react.js</p> 
 
         <p class="card-text">
         <SlLike className="icon-card-like" /><span>12</span> 
@@ -73,12 +73,12 @@ function Cards() {
          <TfiComment className="icon-card-comment"/><span>34</span>
         </p>
        
-        <a className='see-more' type='button' href="https://www.linkedin.com/in/mohamed-abdelouahidi-6b824b251/"><TfiMoreAlt/></a>
+        <a className='see-more' type='button' href="https://githubusefull.github.io/navbar-git/"><TfiMoreAlt/></a>
 
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 ">
       <img src={react9}   className="card-img-top" alt="..."/>
 
      
@@ -109,7 +109,7 @@ function Cards() {
            <GrView className="icon-card-view"/> <span>23K</span>
          <TfiComment className="icon-card-comment"/><span>34</span>
         </p>
-        <a className='see-more' type='button' href="https://www.linkedin.com/in/mohamed-abdelouahidi-6b824b251/"><TfiMoreAlt/></a>
+        <a className='see-more' type='button' href="https://codepen.io/xdzqwrnu-the-vuer/pen/qBpKLpa"><TfiMoreAlt/></a>
 
 
     
