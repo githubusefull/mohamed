@@ -17,12 +17,9 @@ function App() {
       <NavBar/>
       <BrowserRouter>
       <Container>
-  <Routes>
-      <Route path='/' element={<About />} />
-      <Route path='/about' element={<About />} />
+        <About />
+       <Routes>
       <Route path='/projects' element={<Cards />} />
-     
-
       </Routes>
       </Container>
         </BrowserRouter>

@@ -9,6 +9,7 @@ import {FaCodepen} from 'react-icons/fa';
 import {FaFreeCodeCamp} from 'react-icons/fa';
 import { Col,  Row,  Card, Form } from "react-bootstrap";
 import logo from './portfolio.png';
+import Cards from '../Cards/Cards';
 
 function About() {
   return (
@@ -126,6 +127,7 @@ In my free time, you can find me at the library, I am interested in books.
        </div>  
     </div>
     </div>
+    <Cards />
   </div>
 
 
